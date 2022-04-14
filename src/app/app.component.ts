@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Search } from './search';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'SearchGitHub';
+  search:Search[] = [
+    {id:1, name:'i am testing this out'}
+  ]
 }

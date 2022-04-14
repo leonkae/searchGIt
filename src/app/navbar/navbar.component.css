@@ -1,0 +1,31 @@
+/* .navbar-brand{
+    cursor: pointer;
+} */
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.nav-barcontainer{
+    border: 1px solid rgb(3, 46, 66);
+    height: 200px;
+    text-align: center;
+    background-color: rgb(3, 46, 66);
+}
+.title {
+    font-size: xx-large;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    margin-top: 75px;
+    /* color: aliceblue; */
+}
+
+.title a{
+    text-decoration: overline;
+    color: aliceblue;
+    cursor: pointer;
+}
