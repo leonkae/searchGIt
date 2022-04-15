@@ -1,15 +1,21 @@
-<div class="searchBar">
-  <input
-    type="text"
-    name="search-box"
-    id="search-box"
-    class="search-box"
-    placeholder="search"
-  />
+<form>
+  <div class="searchBar">
+    <input
+      type="text"
+      name="search-box"
+      id="search-box"
+      class="search-box"
+      (keydown.enter)="onKeyDownEVent($event)"
+      placeholder="search"
+      required
+    />
 
-  <div class="btn-wrapper">
-    <button class="search-btn" [disabled]="false">Search</button>
+    <div class="btn-wrapper">
+      <button class="search-btn" [disabled]="false" (click)="sendData($event)">
+        Search
+      </button>
+    </div>
+
+    <section class="search-results"></section>
   </div>
-
-  <section class="search-results"></section>
-</div>
+</form>

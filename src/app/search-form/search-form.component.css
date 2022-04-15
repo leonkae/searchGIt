@@ -1,3 +1,5 @@
+
+
 .search-box {
   display: block;
   margin: 180px auto 0 auto;
@@ -5,6 +7,7 @@
   max-width: 600px;
   width: 95%;
   border-radius: 10px;
+  border: 3px solid rgb(3, 46, 66);
 }
 
 .search-results {
