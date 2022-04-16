@@ -1,23 +1,51 @@
-<form>
+<!-- <p>{{userName}}</p> -->
+
+<form (ngSubmit)="sendData(userName)">
   <div class="searchBar">
     <input
+      [(ngModel)]="userName"
       type="text"
-      name="search-box"
+      name="userName"
       id="search-box"
       class="search-box"
-      (keydown.enter)="onKeyDownEVent($event)"
       placeholder="search"
       required
     />
 
     <div class="btn-wrapper">
-      <button class="search-btn" [disabled]="false" (click)="sendData($event)">
+      <button class="search-btn" [disabled]="userName.length <= 0">
         Search
       </button>
     </div>
-
-    <section class="search-results">
-    
-    </section>
   </div>
 </form>
+
+<section class="search-results" *ngIf="user">
+  <div class="container">
+    <h1>{{ user.name }}</h1>
+    <h2>{{ user.login }}</h2>
+    <img src="{{ user.avatar_url }}" alt="" width="50" height="auto" />
+    <p>bio:{{ user.Bio }}</p>
+    <p>repos: {{ user.public_repos }}</p>
+    <p>Social: {{ user.twitter_username }}</p>
+    <p>
+      GitHub URL :
+      <a href="{{ user.html_url }}" target="_blank">Developers repo</a>
+    </p>
+  </div>
+
+  <button (click)="getRepos(userName)">view repos</button>
+</section>
+
+
+<div class="repos" *ngIf="user && repos.length > 0">
+  <h2>user Repos</h2>
+  <ul *ngFor="let repo of repos">
+    <li>
+      <!-- {{ repo.name }} -->
+      <a href="{{ repo.html_url }}" target="_blank">{{ repo.name }}</a>
+      <!-- <a href="{{repo.html_url}}"></a> -->
+    </li>
+  </ul>
+</div>
+<!-- (keydown.enter)="onKeyDownEVent(userName)" -->

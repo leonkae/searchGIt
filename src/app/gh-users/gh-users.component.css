@@ -1,0 +1,13 @@
+.Profile-container{
+    /* border: 3px solid red; */
+    margin-top: 350px;
+    text-align: center;
+    background-color: aliceblue;
+    height: 600px;
+}
+.profile-title a{
+    text-align: center;
+    font-size: x-large;
+    text-decoration: overline;
+    color:  rgb(3, 46, 66);
+}
