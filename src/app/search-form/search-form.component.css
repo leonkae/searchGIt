@@ -33,6 +33,31 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  /* -ms-transform: translate(-50%, -50%); */
   transform: translate(-50%, -50%);
+}
+
+.search-results {
+  margin-top: 150px;
+  color: rgb(3, 46, 66) ;
+  font-size: large;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.repo-btn {
+  width: 170px;
+  margin-left: 49%;
+  background-color: rgb(3, 46, 66);
+  border: none;
+  cursor: pointer;
+  color: aliceblue;
+  margin: 0;
+  position: absolute;
+  
+}
+
+.section-wrapper .search-results .conatiner a{
+  text-decoration: none;
 }
