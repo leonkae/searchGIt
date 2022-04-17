@@ -22,33 +22,36 @@
 </form>
 
 <!--holds displayed data, after search.  -->
-<div class="section-wrapper">
-  <section class="search-results" *ngIf="user">
-    <div class="container">
-      <h2>{{ user.name }}</h2>
-      <h3>{{ user.login }}</h3>
-      <img src="{{ user.avatar_url }}" alt="" width="250" height="auto" />
-      <p>bio:{{ user.Bio }}</p>
-      <p>repos: {{ user.public_repos }}</p>
-      <p>Social: {{ user.twitter_username }}</p>
-      <p>
-        GitHub URL :
-        <a href="{{ user.html_url }}" style="text-decoration: none;">My GitHub</a>
-      </p>
-    </div>
+<div class="info-wrapper">
+  <div class="section-wrapper">
+    <section class="search-results" *ngIf="user">
+      <div class="container">
+        <img src="{{ user.avatar_url }}" alt="" width="250" height="auto" />
+        <h2>{{ user.name }}</h2>
+        <h3>{{ user.login }}</h3>
+        <p>bio:{{ user.Bio }}</p>
+        <p>repos: {{ user.public_repos }}</p>
+        <p>Social: {{ user.twitter_username }}</p>
+        <p>
+          GitHub URL :
+          <a href="{{ user.html_url }}" style="text-decoration: none"
+            >My GitHub</a
+          >
+        </p>
+      </div>
 
-    <button class="repo-btn" (click)="getRepos(userName)">view repos</button>
+      <button class="repo-btn" (click)="getRepos(userName)">view repos</button>
+    </section>
+  </div>
 
-  </section>
-</div>
-
-<div class="repos" *ngIf="user && repos.length > 0">
-  <h2>user Repos</h2>
-  <ul *ngFor="let repo of repos">
-    <li>
-      <a href="{{ repo.html_url }}" target="_blank">{{ repo.name }}</a>
-    </li>
-  </ul>
+  <div class="repos" *ngIf="user && repos.length > 0">
+    <h2>My Repos</h2>
+    <ul *ngFor="let repo of repos">
+      <ol>
+        <a href="{{ repo.html_url }}" target="_blank" style="text-decoration: none;">{{ repo.name }}</a>
+      </ol>
+    </ul>
+  </div>
 </div>
 
 <!-- (keydown.enter)="onKeyDownEVent(userName)" -->

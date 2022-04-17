@@ -37,13 +37,13 @@
 }
 
 .search-results {
-  margin-top: 150px;
   color: rgb(3, 46, 66) ;
-  font-size: large;
+  /* font-size: large; */
 }
 
 img {
   border-radius: 50%;
+  justify-content: center;
 }
 
 .repo-btn {
@@ -60,4 +60,30 @@ img {
 
 .section-wrapper .search-results .conatiner a{
   text-decoration: none;
+}
+
+.info-wrapper{
+  background-color:rgba(3, 46, 66, 0.295) ;
+  margin-top: 150px;
+  margin-left: 450px;
+  margin-right: 450px;
+  display: flex;
+  justify-content:space-between;
+  /* height: 550px; */
+}
+.info-wrapper a{
+  color: rgb(3, 46, 66);
+}
+.info-wrapper h2{
+  font-size: 35px;
+  text-decoration: overline;
+  color: rgb(3, 46, 66);
+}
+
+.info-wrapper h3{
+  font-size: 30px;
+}
+
+.info-wrapper p ,ol{
+  font-size: 20px;
 }
