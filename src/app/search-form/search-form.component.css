@@ -41,7 +41,7 @@
 
 img {
   border-radius: 50%;
-  border: 3px solid rgb(3, 46, 66);
+  border: 3px solid aliceblue;
   /* justify-content: center; */
 }
 
@@ -83,39 +83,39 @@ img {
 }
 
 .info-wrapper a {
-  color: rgb(3, 46, 66);
+  color: aliceblue;
 }
 .info-wrapper h2 {
   font-size: 30px;
   text-decoration: overline;
-  color: rgb(3, 46, 66);
+  color: aliceblue;
 }
 
 .info-wrapper h3 {
   font-size: 25px;
   text-align: center;
-  color:rgb(3, 46, 66);
+  color:aliceblue;
 }
 
 .info-wrapper p{
-  color:rgb(3, 46, 66);
+  color:aliceblue;
   text-align: left;
   font-size: 25px;
 }
 
 .repos a{
     text-decoration: none;
-    color: rgb(3, 46, 66);
+    color: aliceblue;
     /* font-size: 20px; */
     
 }
 .repos h2{
-    color:rgb(3, 46, 66);
+    color:aliceblue;
     font-size: 30px;
     text-decoration: overline;
 }
 .repos ol{
-    color:rgb(3, 46, 66);
+    color: aliceblue;
     text-align: left;
     font-size: 20px;
 }
