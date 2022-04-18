@@ -28,41 +28,41 @@ img{
 }
 
 .container h2{
-    color: rgb(3, 46, 66);
+    color: aliceblue;
     font-size: 30px;
 }
 .container h3{
-    color: rgb(3, 46, 66);
+    color: aliceblue;
     font-size: 25px;
 }
 .container p{
-    color: rgb(3, 46, 66);
+    color: aliceblue;
     font-size: 25px;
     text-align: left;
 }
 .container a{
     text-decoration: none;
-    color: rgb(3, 46, 66);
+    color: aliceblue;
 }
 
 .repos a{
     text-decoration: none;
-    color: rgb(3, 46, 66);
+    color: aliceblue;
     /* font-size: 20px; */
     
 }
 .repos h2{
-    color:rgb(3, 46, 66);
+    color:aliceblue;
     font-size: 30px;
     text-decoration: overline;
 }
 .repos ol{
-    color:rgb(3, 46, 66);
+    color:aliceblue;
     text-align: left;
     font-size: 20px;
 }
 
 .profile-title a{
-    color:rgb(3, 46, 66);
+    color: aliceblue;
     font-size: 40px;
 }

@@ -9,5 +9,6 @@ html{
     scroll-behavior: smooth;
 }
 .app-route{
-    background-image: linear-gradient(to right, red ,purple);
+    /* background-image: linear-gradient(to right, red ,purple); */
+    background-image: url(assets/2050363.jpg);
 }
