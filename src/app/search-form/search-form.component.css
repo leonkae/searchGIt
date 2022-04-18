@@ -53,11 +53,21 @@ img {
   cursor: pointer;
   color: aliceblue;
   margin: 0;
-  position: absolute;
+  position: relative;
+  justify-content: left;
+
 }
 
-.section-wrapper .search-results .conatiner a {
+/* .section-wrapper .search-results .conatiner a {
   text-decoration: none;
+} */
+
+.section-wrapper{
+  margin-right: 150px;
+}
+
+.repos{
+  margin-left: 150px;
 }
 
 .info-wrapper {
@@ -68,6 +78,7 @@ img {
   background-color: rgba(3, 46, 66, 0.26);
   /* height: 600px; */
   justify-content: center;
+  /* margin-left: 50px; */
   /* justify-content: space-evenly; */
 }
 

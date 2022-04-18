@@ -1,0 +1,18 @@
+.footer-wrapper {
+  border: 3px solid rgb(3, 46, 66);
+  height: 150px;
+  background-color: rgb(3, 46, 66);
+}
+
+.footer-wrapper h4 {
+  color: aliceblue;
+  text-align: center;
+  margin-top: 0px;
+  text-decoration: underline;
+  font-size: x-large;
+}
+.footer-wrapper p {
+  text-align: center;
+  margin-top: 45px;
+  color: aliceblue;
+}
