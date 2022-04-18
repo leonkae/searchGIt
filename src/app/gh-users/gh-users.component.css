@@ -11,3 +11,58 @@
     text-decoration: overline;
     color:  rgb(3, 46, 66);
 }
+
+
+.profile-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+}
+
+img{
+    border-radius: 50%;
+    border: 3px solid  rgb(3, 46, 66);
+}
+
+.container h2{
+    color: rgb(3, 46, 66);
+    font-size: 30px;
+}
+.container h3{
+    color: rgb(3, 46, 66);
+    font-size: 25px;
+}
+.container p{
+    color: rgb(3, 46, 66);
+    font-size: 25px;
+    text-align: left;
+}
+.container a{
+    text-decoration: none;
+    color: rgb(3, 46, 66);
+}
+
+.repos a{
+    text-decoration: none;
+    color: rgb(3, 46, 66);
+    /* font-size: 20px; */
+    
+}
+.repos h2{
+    color:rgb(3, 46, 66);
+    font-size: 30px;
+    text-decoration: overline;
+}
+.repos ol{
+    color:rgb(3, 46, 66);
+    text-align: left;
+    font-size: 20px;
+}
+
+.profile-title a{
+    color:rgb(3, 46, 66);
+    font-size: 40px;
+}
