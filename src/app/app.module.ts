@@ -17,6 +17,7 @@ import { GhUsersComponent } from './gh-users/gh-users.component';
 import { FormsModule } from '@angular/forms';
 import { FooterComponent } from './footer/footer.component';
 import { PipePipe } from './pipe.pipe';
+import { TransformDirective } from './transform.directive';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { PipePipe } from './pipe.pipe';
     GhUsersComponent,
     FooterComponent,
     PipePipe,
+    TransformDirective,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
   providers: [APIService],
