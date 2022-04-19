@@ -16,6 +16,7 @@ import { UsersComponent } from './users/users.component';
 import { GhUsersComponent } from './gh-users/gh-users.component';
 import { FormsModule } from '@angular/forms';
 import { FooterComponent } from './footer/footer.component';
+import { PipePipe } from './pipe.pipe';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { FooterComponent } from './footer/footer.component';
     UsersComponent,
     GhUsersComponent,
     FooterComponent,
+    PipePipe,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
   providers: [APIService],
