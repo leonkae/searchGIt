@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+font-family: 'Poppins', sans-serif;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.app-route{
+    /* background-image: linear-gradient(to right, red ,purple); */
+    background-image: url(assets/2050363.jpg);
+}

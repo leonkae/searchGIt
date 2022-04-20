@@ -1,0 +1,125 @@
+.search-box {
+  display: block;
+  margin: 180px auto 0 auto;
+  padding: 10px 20px;
+  max-width: 600px;
+  width: 95%;
+  border-radius: 10px;
+  border: 3px solid rgb(3, 46, 66);
+}
+
+.search-results {
+  max-width: 600px;
+  width: 65%;
+  margin: 20px auto 0 auto;
+}
+
+.btn-wrapper {
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.search-btn {
+  width: 70px;
+  margin-left: 49%;
+  background-color: rgb(3, 46, 66);
+  border: none;
+  cursor: pointer;
+  color: aliceblue;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.search-results {
+  color: rgb(3, 46, 66);
+  /* font-size: large; */
+}
+
+img {
+  border-radius: 50%;
+  border: 3px solid aliceblue;
+  /* justify-content: center; */
+}
+
+.repo-btn {
+  width: 170px;
+  margin-left: 49%;
+  background-color: rgb(3, 46, 66);
+  border: none;
+  cursor: pointer;
+  color: aliceblue;
+  margin: 0;
+  position: relative;
+  justify-content: left;
+
+}
+
+/* .section-wrapper .search-results .conatiner a {
+  text-decoration: none;
+} */
+
+.section-wrapper{
+  margin-right: 150px;
+}
+
+.repos{
+  margin-left: 150px;
+}
+
+.info-wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 150px;
+  text-align: center;
+  background-color: rgba(3, 46, 66, 0.26);
+  /* height: 600px; */
+  justify-content: center;
+  /* margin-left: 50px; */
+  /* justify-content: space-evenly; */
+}
+
+.info-wrapper a {
+  color: aliceblue;
+}
+.info-wrapper h2 {
+  font-size: 30px;
+  text-decoration: overline;
+  color: aliceblue;
+}
+
+.info-wrapper h3 {
+  font-size: 25px;
+  text-align: center;
+  color:aliceblue;
+}
+
+.info-wrapper p{
+  color:aliceblue;
+  text-align: left;
+  font-size: 25px;
+}
+
+.repos a{
+    text-decoration: none;
+    color: aliceblue;
+    /* font-size: 20px; */
+    
+}
+.repos h2{
+    color:aliceblue;
+    font-size: 30px;
+    text-decoration: overline;
+}
+.repos ol{
+    color: aliceblue;
+    text-align: left;
+    font-size: 20px;
+}
+
+ol {
+  font-size: 20px;
+}

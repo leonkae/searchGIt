@@ -1,0 +1,63 @@
+<div class="Profile-container" id="my-profile">
+  <div class="profile-title">
+    <a href="#">My profile</a>
+ </div>
+
+    <div class="profile-wrapper">
+      <div class="container">
+        <img src="{{ user.avatar_url }}" alt="" width="250" height="auto" />
+        <h2>{{ user.name }}</h2>
+        <h3>{{ user.login }}</h3>
+        <p>Bio:{{ user.Bio }}</p>
+        <p>Repos: {{ user.public_repos }}</p>
+        <p>Social: {{ user.twitter_username }}</p>
+        <p>
+          GitHub URL :
+          <a href="{{ user.html_url }}" target="_blank">My GitHub</a>
+        </p>
+      </div>
+
+      <div class="repos">
+        <h2>User Repos</h2>
+        <ul *ngFor="let repo of userRepos">
+          <ol>
+            <a href="{{ repo.html_url }}" target="_blank">{{ repo.name }}</a>
+          </ol>
+        </ul>
+      </div>
+    </div>
+ 
+</div>
+
+<!-- avatar_url: "https://avatars.githubusercontent.com/u/99721338?v=4"
+bio: "I guess I am a developer now...\r\nokay..\"i am pleased
+blog: ""
+company: null
+created_at: "2022-02-15T08:56:16Z"
+email: null
+events_url: "https://api.github.com/users/leonkae/events{/privacy}"
+followers: 14
+followers_url: "https://api.github.com/users/leonkae/followers"
+following: 12
+following_url: "https://api.github.com/users/leonkae/following{/other_user}"
+gists_url: "https://api.github.com/users/leonkae/gists{/gist_id}"
+gravatar_id: ""
+hireable: null
+html_url: "https://github.com/leonkae"
+id: 99721338
+location: null
+login: "leonkae"
+name: null
+node_id: "U_kgDOBfGgeg"
+organizations_url: "https://api.github.com/users/leonkae/orgs"
+public_gists: 0
+public_repos: 17
+received_events_url: "https://api.github.com/users/leonkae/received_events"
+repos_url: "https://api.github.com/users/leonkae/repos"
+site_admin: false
+starred_url: "https://api.github.com/users/leonkae/starred{/owner}{/repo}"
+subscriptions_url: "https://api.github.com/users/leonkae/subscriptions"
+twitter_username: null
+type: "User"
+updated_at: "2022-03-25T19:53:45Z"
+url: "https://api.github.com/users/leonkae" -->

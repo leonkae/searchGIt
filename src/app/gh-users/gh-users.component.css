@@ -1,0 +1,68 @@
+.Profile-container{
+    /* border: 3px solid red; */
+    margin-top: 150px;
+    text-align: center;
+    background-color: rgba(3, 46, 66, 0.26);
+    height: 700px;
+}
+.profile-title a{
+    text-align: center;
+    font-size: x-large;
+    text-decoration: overline;
+    color:  rgb(3, 46, 66);
+}
+
+
+.profile-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+}
+
+img{
+    border-radius: 50%;
+    border: 3px solid  aliceblue;
+}
+
+.container h2{
+    color: aliceblue;
+    font-size: 30px;
+}
+.container h3{
+    color: aliceblue;
+    font-size: 25px;
+}
+.container p{
+    color: aliceblue;
+    font-size: 25px;
+    text-align: left;
+}
+.container a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.repos a{
+    text-decoration: none;
+    color: aliceblue;
+    /* font-size: 20px; */
+    
+}
+.repos h2{
+    color:aliceblue;
+    font-size: 30px;
+    text-decoration: overline;
+}
+.repos ol{
+    color:aliceblue;
+    text-align: left;
+    font-size: 20px;
+}
+
+.profile-title a{
+    color: aliceblue;
+    font-size: 40px;
+}
